@@ -12,6 +12,7 @@ Translation:
   
 Shear:
   Up = Up Arrow
+  
   Down = Down Arrow
   Left = Left Arrow
   Right = Right Arrow
