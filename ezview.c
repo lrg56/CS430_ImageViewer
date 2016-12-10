@@ -45,11 +45,17 @@ static void keyCallBack(GLFWwindow* window, int key,int scancode, int action, in
     if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
       glfwSetWindowShouldClose(window, GLFW_TRUE);
     
-    if (key == GLFW_KEY_Y && action == GLFW_PRESS)
+    if (key == GLFW_KEY_R && action == GLFW_PRESS)
       mat[0].scale *= 1.1;
     
-    if (key == GLFW_KEY_T && action == GLFW_PRESS)
+    if (key == GLFW_KEY_F && action == GLFW_PRESS)
     	mat[0].scale /= 1.1;
+
+	if (key == GLFW_KEY_Q && action == GLFW_PRESS)
+		mat[0].rotate += (90 * M_PI) / 180;
+
+	if (key == GLFW_KEY_E && action == GLFW_PRESS)
+		mat[0].rotate += (90 * M_PI) / 180;
     
     if (key == GLFW_KEY_D && action == GLFW_PRESS)
     	mat[0].translate[0] += 0.1;
