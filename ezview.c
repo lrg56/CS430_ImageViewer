@@ -55,7 +55,7 @@ static void keyCallBack(GLFWwindow* window, int key,int scancode, int action, in
 		mat[0].rotate += (90 * M_PI) / 180;
 
 	if (key == GLFW_KEY_E && action == GLFW_PRESS)
-		mat[0].rotate += (90 * M_PI) / 180;
+		mat[0].rotate -= (90 * M_PI) / 180;
     
     if (key == GLFW_KEY_D && action == GLFW_PRESS)
     	mat[0].translate[0] += 0.1;
