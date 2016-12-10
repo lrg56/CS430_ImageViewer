@@ -4,7 +4,7 @@
 This application uses OpenGl to open an image, then let the user do various transformations to it(ie. translation, rotation, shear, and scale). 
 
 # Commands:
-Translation:
+__Translation:__
 
   Up = W
   
@@ -14,7 +14,7 @@ Translation:
   
   Right D
   
-Shear:
+__Shear:__
 
   Up = Up Arrow
   
@@ -24,13 +24,13 @@ Shear:
   
   Right = Right Arrow
 
-Scale:
+__Scale:__
 
   Increase = R
   
   Decrease = F
   
-Rotation:
+__Rotation:__
 
   Clockwise = E
   
