@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
+#include "ppmrw.c"
+#include "linmath.h"
 
 //Global variables
 int width, height, maxColor, version;
